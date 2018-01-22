@@ -1,0 +1,30 @@
+{
+  "name": "simple_service_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "Express RestAPI MongoDB Mongoose "
+  },
+  "keywords": [
+    "vijay",
+    "tiranz"
+  ],
+  "author": "trianz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.0"
+  }
+}
