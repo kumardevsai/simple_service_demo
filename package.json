@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "mocha --timeout 10000"
-
+     "test": "mocha --exit"
   },
   "repository": {
     "type": "git",

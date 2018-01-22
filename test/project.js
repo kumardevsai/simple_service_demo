@@ -15,6 +15,7 @@ chai.use(chaiHttp);
 
 //Our parent block
 describe('Projects', () => {
+
 	beforeEach((done) => { //Before each test we empty the database
 		Project.remove({}, (err) => { 
 		   done();		   
@@ -35,6 +36,7 @@ describe('Projects', () => {
 		    });
 	  });
   });
+
  /*
   * Test the /POST route
   */
@@ -125,4 +127,6 @@ describe('Projects', () => {
 		  });
 	  });
   });
+
+  
 });

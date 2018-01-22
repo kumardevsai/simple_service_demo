@@ -29,7 +29,7 @@ mongoose.connection.once('open', function() {
 require('./app/routes/routes.js')(app);
 
 // listen for requests
-app.listen(3000, function(){
+app.listen(3005, function(){
     console.log("Server is listening on port 3000");
 });
 
