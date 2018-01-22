@@ -5,7 +5,6 @@
 
 
 Run Test cases:
-
  npm test
 
 
